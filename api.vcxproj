@@ -159,7 +159,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\nagisa\external\opengl\api\detail\api.h" />
+    <ClInclude Include="include\nagisa\external\opengl\api\api.h" />
     <ClInclude Include="include\nagisa\external\opengl\api\detail\api\1.x.h" />
     <ClInclude Include="include\nagisa\external\opengl\api\detail\api\2.x.h" />
     <ClInclude Include="include\nagisa\external\opengl\api\detail\api\3.x.h" />
@@ -173,7 +173,6 @@
     <ClInclude Include="include\nagisa\external\opengl\api\detail\version.h" />
     <ClInclude Include="include\nagisa\external\opengl\api\environment.h" />
     <ClInclude Include="include\nagisa\external\opengl\api\export.h" />
-    <ClInclude Include="include\nagisa\external\opengl\api\api.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
